@@ -33,6 +33,8 @@ class Fairy {
       return infant
     }
   }
+  // forEach is slower?
+  // lodash?
   // makeDresses(array){
   //   array.forEach(function(element) {
   //     this.clothes["dresses"].push(element)
