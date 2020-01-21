@@ -156,7 +156,7 @@ describe('Sphinx', function() {
     sphinx.collectRiddle(riddle2);
     sphinx.attemptAnswer('short');
     var rage = sphinx.attemptAnswer('Halfway, after that it\'s running out.');
-
+    console.log(rage)
     assert.equal(rage, 'PSSSSSSS THIS HAS NEVER HAPPENED, HOW DID YOU KNOW THE ANSWER WAS \"Halfway, after that it\'s running out.\"???');
   });
 
