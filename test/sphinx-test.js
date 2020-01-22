@@ -14,7 +14,7 @@ describe('Sphinx', function() {
 
   it('should start with no riddles', function() {
     var sphinx = new Sphinx();
-
+  
     assert.deepEqual(sphinx.riddles, []);
   });
 
